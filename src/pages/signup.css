@@ -1,0 +1,43 @@
+.login-header {
+    background: var(--ion-color-warning-shade)
+}
+
+.logo-img {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-column-lr {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.big-heading {
+    font-size: 30px !important;
+}
+
+.small-heading {
+    margin-left: auto;
+    padding-right: 40px;
+    font-size: 15px;
+}
+
+ion-label {
+    color: #0000;
+    opacity: 0.8;
+    font-size: 13px;
+    display: block;
+}
+
+
+
+ion-content {
+    --background: #fafafa;
+    --padding-bottom: 10px;
+    --padding-end: 20px;
+    --padding-start: 20px;
+    --padding-top: 20px;
+}
